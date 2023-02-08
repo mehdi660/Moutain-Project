@@ -1,0 +1,161 @@
+$color1:black;
+$color2:rgb(246, 246, 246);
+$color3:grey;
+$font1:'Inter', sans-serif;
+$font2:'Merriweather', serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-family: $font1;
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../mastering-front-end-9a36e1b58e3116fe209709e03b0f7a194435ca1a/images/bg.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    color: $color2;
+    padding-top: 150px;
+
+    h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        line-height: 60px;
+        padding-bottom: 50px;
+    }
+
+    p{
+        font-family: $font2;
+    }
+
+    .arrow{
+        position: relative;
+        font-size: 20px;
+        padding-top: 70px;
+        padding-bottom: 200px;
+    }
+
+    .circle{
+        font-size: 50px;
+        color: white;
+        font-weight:lighter;
+        position: absolute;
+        right: 665px;
+        top: 390px;
+    }
+
+    .i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav{
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .nav{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+        
+        padding-bottom: 20px;
+        background: rgba(255, 242, 242, 0.222);
+        height: 50px;
+        width: 80%;
+        text-transform: uppercase;
+        font-weight: 200px;
+        font-size: 15px;
+
+    }
+
+    .li{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        size: 100%;
+        font-weight: normal;
+        word-spacing: 0;
+    }
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+
+
+}
+
+.section-1{
+    background: $color2;
+    width: 80%;
+    margin-left: 138px;
+
+
+
+    .under-nav{
+        display: block;
+        padding-top: 70px;
+    }
+
+    h4{
+        font-family: $font2;
+        color: $color3;
+        font-weight: normal;
+        padding-bottom: 60px;
+    
+
+    &:before {
+        position: absolute;
+        content: "";
+        width: 400px;
+        border: solid 0.0001px rgba(128, 128, 128, 0.23);
+        left: 200px;
+        top: 766px;
+    }
+
+    &:after{
+        position: absolute;
+        content: "";
+        width: 400px;
+        border: solid 0.0001px rgba(128, 128, 128, 0.23);
+        left: 770px;
+        top: 766px;
+
+    }
+}
+
+h2{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+p{
+    font-family: $font2;
+    color: $color3;
+    line-height: 40px;
+    padding-bottom: 30px;
+    
+}
+
+button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+}
